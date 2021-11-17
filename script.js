@@ -144,7 +144,7 @@ function checkWin(){
     }
   })
   // you can bring this in lastly for this function
-  if(gameState.includes(undefined) === false){
+  if(gameState.includes(undefined) === false && gameActive){
       playerTurn.innerHTML = "DRAW!"
       gameActive = false;
   }
