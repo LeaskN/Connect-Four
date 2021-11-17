@@ -1,0 +1,31 @@
+/* finishing touches - dont add body styling */
+body{
+  background-color: #141414;
+  color: #0AA6E3;
+  font-family: Helvetica;
+}
+/* After HTML is finished style section, game, & box */
+section{
+  text-align: center;
+}
+
+.game{
+  display: grid;
+  grid-template-columns: repeat(7, auto);
+  width: fit-content;
+  margin: 50px auto;
+}
+
+.box{
+  width: 4rem;
+  height: 4rem;
+  border:1px solid #333333;
+  cursor: pointer;
+  line-height: 4rem;
+  font-size: 4rem;
+}
+
+/* finishing touches */
+.box:hover{ 
+  border: 1px solid #0AA6E3;
+}
